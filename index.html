@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Daniel Pereira</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./Components/HardSkill/HardSkill.js" defer></script>
+    <script src="./Components/HistoricoProfissional/HistoricoProfissional.js" defer></script>
+</head>
+
+<body class="gradient">
+    <section id="geral" class="container divisor-horizontal wave-gradient">
+        <div class="flex infos-gerais">
+            <div class="div-imagem">
+                <a href="https://www.linkedin.com/in/daniel-pereira-a712821b4/" target="_blank">
+                    <img class="avatar-img" src="/img/avatar.png" alt="Avatar do daniel pereira" />
+                </a>
+            </div>
+            <div class="div-apresentacao">
+                <h1 class="titulo-nome left white-text minimal-line-heigth">Daniel Pereira</h1>
+                <h2 class="titulo-cargo-pretendido left white-text minimal-line-heigth">Desenvolvedor Pleno</h2>
+                <p class="center white-text synthesis-text">Hello there! Eu sou o Daniel. Desenvolvedor Backend,
+                    formado em analise e desenvolvimento de sistemas, apaixonado por tecnologia. Gosto de linguagens
+                    compiladas e gosto muito de aprender. Tenho maior expertise em C#, com foco em aplicações
+                    Backend e para a infraestrutura do windows, como por exemplo, windows services e windows forms.
+                    Também tenho hobby de estudar outras linguagens que amo, como por exemplo golang e C++.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="historico-profissional" class="container divisor-horizontal">
+        <h2 class="center white-text title-font">Carreira profissional</h2>
+        <historico-profissional linkedinEmpresa="https://www.linkedin.com/company/osasbrasil/"
+            tituloEmpresa="Osas tecnologia da informação" competenciasVaga="CSS · Web forms · .NET Framework · HTML · C# · Entity Framework (EF) Core ·
+            JavaScript · JQuery" cargo="Analista de sistemas III" logoEmpresa="osas.jpeg">
+            Manutenção em sistemas, desenvolvimento de novas funcionalidades, resolução de bugs,
+            refatoração, melhoria em funcionalidades já existentes, criação de novos subsistemas de alta performance
+            baseado em multi-thread.
+        </historico-profissional>
+        <historico-profissional linkedinEmpresa="https://www.linkedin.com/company/emixsoft/"
+            tituloEmpresa="e.Mix soluções inteligentes" competenciasVaga="CSS · Web forms · .NET Framework · HTML · C# · Entity Framework (EF) Core ·
+            JavaScript · JQuery" cargo="Desenvolvedor .NET junior" logoEmpresa="emix.jpeg">
+            Desenvolvimento de Rest APIs utilizando entity framework, dapper, redis, RabbitMq, padrões de projeto e
+            boas
+            práticas de desenvolvimento; Desenvolvimento de aplicações WEB para automação de tarefas; Manutenção em
+            aplicações web pré existentes; Criação de testes unitários para projetos; Code review; Deploy das
+            aplicações
+            nos devidos ambientes com azure devops;
+        </historico-profissional>
+        <historico-profissional linkedinEmpresa="https://www.linkedin.com/company/emixsoft/"
+            tituloEmpresa="Inov Automação LTDA" competenciasVaga="Desenvolvimento de Rest APIs utilizando entity framework, dapper,
+            redis, RabbitMq, padrões de projeto e boas práticas de desenvolvimento;
+            Desenvolvimento de aplicações WEB para automação de tarefas; Manutenção
+            em aplicações web pré existentes; Criação de testes unitários para projetos;
+            Code review; Deploy das aplicações nos devidos ambientes com azure
+            devops;" cargo="Programador junior/Trainee" logoEmpresa="inov.jpg">
+            Desenvolvimento de softwares para usos internos, desenvolvimento de windows services para automação de
+            tarefas, manutenção em sistemas preexistentes, desenvolvimento e manutenção de novas funcionalidades.
+        </historico-profissional>
+    </section>
+    <section id="linguagens-trabalho" class="container divisor-horizontal">
+        <h2 class="center white-text title-font">Principais linguagens de trabalho.</h2>
+        <hard-skill imagem="csharp/csharp-original.svg" tituloLingugaem="C# .NET">
+            Minha principal linguagem de atuação, na
+            qual possuo maior expertise.
+            Já desenvolvi inúmeros softwares desktop, aplicações web, serviços para Windows, DLLs e
+            aplicações de console com esta linguagem.
+            Trabalhei em softwares de alto desempenho, utilizando multi-threading, filas, cache e
+            boas práticas de código e arquitetura, como a arquitetura limpa (clean architecture) e
+            código limpo. Também já efetuei correções na documentação oficial da mesma. É uma
+            linguagem versátil com um ecossistema enorme que tem me proporcionado ótimos desafios.
+        </hard-skill>
+        <hard-skill imagem="angularjs/angularjs-original.svg" tituloLingugaem="Angular">
+            A minha base de atuação quando o assunto é front-end, um ótimo framework SPA que casa muito bem com a
+            plataforma .NET,
+            além do próprio visual studio ter um grande suporte para criação do template .NET com angular, além de
+            utilizad typescript como sua linguagem principal, o que é muito bom para pessoas que estão acostumadas com
+            C# e outras linguagens tipadas, como por exemplo, Java.
+        </hard-skill>
+        <hard-skill imagem="go/go-original.svg" tituloLingugaem="GoLang">
+            Quando o assunto é uma linguagem compilada e simples, a minha escolha certamente é o golang. Eu sempre amei
+            o jeito que as linguagens compiladas funcionam, e como comecei os meus estudos com C e C++, eu optei por
+            essa linguagem para fazer alguns trabalhos específicos, como por exemplo um bot para o discord, onde o mesmo
+            reconhece imagens potencialmente ofensivas para crianças utilizando a plataforma do google vision
+        </hard-skill>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <a href="https://www.linkedin.com/in/daniel-pereira-a712821b4/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Daniel-kenobi" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

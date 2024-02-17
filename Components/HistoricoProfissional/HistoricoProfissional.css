@@ -1,0 +1,72 @@
+.justify {
+    text-align: left;
+    text-indent: 3em hanging;
+    word-break: keep-all;
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulos {
+    max-width: 100%;
+}
+
+.light-purple {
+    color: var(--cor-roxo-claro);
+}
+
+.div-esquerda {
+    margin-right: 50px;
+}
+  
+.building-ico {
+    text-align: center;
+    width: 100px;
+    padding: 2px;
+    border: 1px solid var(--cor-roxo-claro);
+    border-radius: 50px;
+}
+
+.descricao, .competencias {
+    width: 800px;
+}
+
+@media (max-width: 980px) {
+    .descricao, .competencias, .experiencia {
+        max-width: 100%;
+    }
+
+    .building-ico {
+        width: 50px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    h3 {
+        font-size: 10px;
+    }
+
+    .div-esquerda {
+        max-width: 30%;
+    }
+
+    .div-direita {
+        max-width: 70%;
+        max-height: 100%;
+    }
+
+    .texto-responsivo {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 600px) { 
+    .texto-responsivo {
+        font-size: 8px;
+    }
+}
