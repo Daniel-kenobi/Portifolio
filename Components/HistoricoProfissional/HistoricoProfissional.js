@@ -140,7 +140,7 @@ class HistoricoProfissional extends HTMLElement {
         let competenciaTexto = this.getAttribute('competenciasVaga');
 
         if (competenciaTexto)
-            competenciasTexto.innerText = `Competências: ${this.RetiraEspacosInuteis(competenciaTexto)}`;
+            competenciasTexto.innerHTML = `<b class="light-purple">Competências:</b> ${this.RetiraEspacosInuteis(competenciaTexto)}`;
 
         return competenciasTexto;
     }
