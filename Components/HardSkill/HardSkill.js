@@ -33,8 +33,8 @@ class HardSkill extends HTMLElement {
 
     criaTituloLinguagem() {
         let tituloLinguagem = document.createElement('h2');
-        tituloLinguagem.className = "titulo-linguagem center ligth-purple";
-        tituloLinguagem.innerText = this.getAttribute('tituloLingugaem');
+        tituloLinguagem.className = "titulo-card center ligth-purple";
+        tituloLinguagem.innerText = this.getAttribute('tituloCard');
 
         return tituloLinguagem;
     }
